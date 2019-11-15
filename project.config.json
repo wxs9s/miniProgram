@@ -39,5 +39,7 @@
 			"current": -1,
 			"list": []
 		}
-	}
+	},
+  "cloudfunctionRoot":
+"cloudfunction"
 }

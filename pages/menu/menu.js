@@ -1,47 +1,18 @@
-// pages/index/index.js
+// pages/menu/menu.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imagePath:''
+
   },
-
-// 访问云函数
-  // handleClick(){
-  //   wx.cloud.init();
-  //   wx.cloud.callFunction({
-  //     // 云函数名称
-  //     name: 'add',
-  //     data: {
-  //       a:1 ,
-  //       b:2
-  //     },
-  //     success: function(res){
-  //         console.log(res)
-  //     }
-  //   })
-  // },
-
-  //访问本地文件夹
-  handleClick(){
-    wx.chooseImage({
-      success: (res) => {
-        console.log(res)
-        const path = res.tempFilePaths[0]
-        this.setData({
-            imagePath:path
-        })
-      },
-    })
-  },
-
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
   },
 
   /**
